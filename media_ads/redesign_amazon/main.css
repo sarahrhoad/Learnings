@@ -11,17 +11,17 @@
   font-family: Roboto, sans-serif;
 }
 
-#any-mood-time, #unlimited-access {
+#any-mood-any-time, #unlimited-access {
   font-size: 20px;
   font-weight: 500;
   text-shadow: 1px 1px 1px #00000002;
 }
 
-#any-mood-time {
+#any-mood-any-time {
   padding-top: 84px;
 }
 
-#any-mood-time p {
+#any-mood-any-time p {
   margin: 2px;
 }
 
