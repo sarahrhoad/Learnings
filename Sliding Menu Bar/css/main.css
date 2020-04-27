@@ -5,13 +5,13 @@
 }
 
 #sidebar {
-    min-width: 250px;
-    max-width: 250px;
+    min-width: 440px;
+    max-width: 440px;
     min-height: 100vh;
 }
 
 #sidebar.active {
-    margin-left: -250px;
+    margin-left: -440px;
 }
 
 a[data-toggle="collapse"] {
@@ -28,7 +28,7 @@ a[data-toggle="collapse"] {
 
 @media (max-width: 768px) {
     #sidebar {
-        margin-left: -250px;
+        margin-left: -440px;
     }
     #sidebar.active {
         margin-left: 0;
