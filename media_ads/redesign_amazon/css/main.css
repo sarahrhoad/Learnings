@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
 
 #vertical-banner-ad {
-  background-image: url(images/vertical_background_image.png);
+  background-image: url(../images/vertical_background_image.png);
   background-repeat: no-repeat;
   height: 600px;
   width: 190px;
