@@ -1,0 +1,33 @@
+@font-face {
+  font-family: Heebo-Bold;
+  src: url(../fonts/Heebo-Bold.ttf);
+}
+
+@font-face {
+  font-family: Heebo-Medium;
+  src: url(../fonts/Heebo-Medium.ttf);
+}
+
+@font-face {
+  font-family: Heebo-Regular;
+  src: url(../fonts/Heebo-Regular.ttf);
+}
+
+/* #newsletter-wrapper {
+  margin: 30px;
+} */
+
+#background_image img{
+  width: 625px;
+  position: absolute;
+}
+
+#cnbc-logo {
+  text-align: center;
+}
+
+#cnbc-logo img{
+  width: 50px;
+  position: relative;
+  margin: 30px auto 40px auto;
+}
