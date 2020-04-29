@@ -13,13 +13,33 @@
   src: url(../fonts/Heebo-Regular.ttf);
 }
 
-/* #newsletter-wrapper {
-  margin: 30px;
-} */
+#newsletter-wrapper {
+  position: relative;
+}
 
-#background_image img{
+.left-star-a, .right-star-a,
+.left-star-b, .right-star-b {
+  padding-bottom: 5px;
+  width: 16px;
+}
+
+.left-star-b {
+  padding-right: 10px;
+}
+
+.right-star-b {
+  padding-left: 10px;
+}
+
+img#background_image {
   width: 625px;
   position: absolute;
+  z-index: 1;
+}
+
+#on-image-wrapper {
+  z-index: 2;
+  position: relative;
 }
 
 #cnbc-logo {
@@ -28,6 +48,48 @@
 
 #cnbc-logo img{
   width: 50px;
-  position: relative;
-  margin: 30px auto 40px auto;
+  margin: 50px auto 70px auto;
+}
+
+p#washingtons-impact-verbiage {
+  font-family: Heebo-Regular;
+  font-size: 20px;
+  color: #fff;
+}
+
+p#guide-section,
+p#impact-section,
+p#business-section {
+  margin: 0;
+  display: block;
+}
+
+p#business-section {
+  margin-bottom: 30px;
+}
+
+#get-the-stars img, p{
+  /* margin-bottom: 20px;  */
+  font-size: 20px;
+  font-family: Heebo-Regular;
+  display: inline;
+  color: #fff;
+}
+
+#stars-get-the-row {
+  padding-bottom: 20px;
+}
+
+#washingtons-impact-verbiage,
+#get-the-stars,
+#cnbc-newsletter-verbiage {
+  text-align: center;
+}
+
+#cnbc-newsletter-verbiage p{
+  margin: 0;
+  font-family: Heebo-Bold;
+  font-size: 48px;
+  color: #fff;
+  display: block;
 }
