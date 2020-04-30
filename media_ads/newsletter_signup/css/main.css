@@ -1,6 +1,16 @@
 @font-face {
-  font-family: Heebo-Bold;
-  src: url(../fonts/Heebo-Bold.ttf);
+  font-family: Heebo-Regular;
+  src: url(../fonts/Heebo-Regular.ttf);
+}
+
+@font-face {
+  font-family: Heebo-Thin;
+  src: url(../fonts/Heebo-Thin.ttf);
+}
+
+@font-face {
+  font-family: Heebo-Light;
+  src: url(../fonts/Heebo-Light.ttf);
 }
 
 @font-face {
@@ -9,12 +19,8 @@
 }
 
 @font-face {
-  font-family: Heebo-Regular;
-  src: url(../fonts/Heebo-Regular.ttf);
-}
-
-#newsletter-wrapper {
-  position: relative;
+  font-family: Heebo-Bold;
+  src: url(../fonts/Heebo-Bold.ttf);
 }
 
 .left-star-a, .right-star-a,
@@ -31,14 +37,24 @@
   padding-left: 10px;
 }
 
-img#background_image {
-  width: 625px;
+#background_image img {
+  width: 600px;
+  height: 850px;
   position: absolute;
-  z-index: 1;
+  transform: translateX(-50%);
+  left: 50%;
 }
 
 #on-image-wrapper {
-  z-index: 2;
+  text-align: center;
+  position: relative;
+  letter-spacing: 3px;
+}
+
+#close_image img {
+  width: 20px;
+  left: 271px;
+  top: 15px;
   position: relative;
 }
 
@@ -46,13 +62,13 @@ img#background_image {
   text-align: center;
 }
 
-#cnbc-logo img{
-  width: 50px;
+#cnbc-logo img {
+  width: 60px;
   margin: 50px auto 70px auto;
 }
 
 p#washingtons-impact-verbiage {
-  font-family: Heebo-Regular;
+  font-family: Heebo-Light;
   font-size: 20px;
   color: #fff;
 }
@@ -60,36 +76,83 @@ p#washingtons-impact-verbiage {
 p#guide-section,
 p#impact-section,
 p#business-section {
-  margin: 0;
+  margin: 5px 0;
   display: block;
 }
 
 p#business-section {
-  margin-bottom: 30px;
+  margin-bottom: 45px;
 }
 
-#get-the-stars img, p{
-  /* margin-bottom: 20px;  */
+#get-the-stars img, p {
   font-size: 20px;
-  font-family: Heebo-Regular;
+  font-family: Heebo-Light;
   display: inline;
   color: #fff;
 }
 
-#stars-get-the-row {
-  padding-bottom: 20px;
+#row-of-stars-get-the {
+  padding-bottom: 5px;
 }
 
-#washingtons-impact-verbiage,
-#get-the-stars,
-#cnbc-newsletter-verbiage {
-  text-align: center;
-}
-
-#cnbc-newsletter-verbiage p{
+#cnbc-newsletter-verbiage p {
   margin: 0;
   font-family: Heebo-Bold;
-  font-size: 48px;
+  font-size: 58px;
   color: #fff;
   display: block;
+}
+
+p#cnbc-politics-section {
+  margin-bottom: -16px;
+}
+
+input[type=text] {
+  margin: 15px auto;
+  padding: 25px 20px;
+  width: 350px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: Heebo-Light;
+  outline: none;
+}
+
+input#email {
+  display: block;
+  border: 0;
+  box-shadow: 1px 1px #00000020;
+}
+
+a#signup-box {
+  margin: 0px auto 60px auto;
+  padding: 25px 110px;
+  background-color: #E0B940;
+  border: none;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: Heebo-Bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  box-shadow: 1px 1px #00000020;
+}
+
+a:hover#signup-box {
+  background-color: #c9a020;
+}
+
+a#no-thanks {
+  margin: 0;
+  padding: 0;
+  font-family: Heebo-Regular;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: underline;
+  letter-spacing: 1px;
+}
+
+a:hover#no-thanks {
+  color: #a6a6a6;
 }
