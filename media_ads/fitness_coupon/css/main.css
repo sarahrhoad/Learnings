@@ -1,0 +1,168 @@
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(../font/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url(../font/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(../font/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../font/Roboto-Regular.ttf);
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+#background img {
+  width: 900px;
+  height: 748.7px;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+#on-top-of-background {
+  position: relative;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+#logo img {
+  margin-top: 45px;
+  width: 200px;
+  height: 65px;
+}
+
+#unlock-order {
+  margin-top: 25px;
+  text-align: center;
+  font-family: Roboto-Bold;
+  color: #000;
+  font-size: 26px;
+  top: 40px;
+}
+
+#unlock {
+  margin-bottom: 10px;
+}
+
+p#large-five, p#large-off {
+  margin-bottom: 10px;
+  display: inline-block;
+  font-size: 115px;
+}
+
+p#large-five {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#fine-print p {
+  margin: 40px auto 30px auto;
+  padding: 8px 10px;
+  width: 451px;
+  font-family: Roboto-Regular;
+  font-size: 9px;
+  color: #fff;
+  background: #41413F95;
+  text-align: left;
+  letter-spacing: 1px;
+  line-height: 13px;
+  border-radius: 2px;
+}
+
+#terms-privacy {
+  font-family: Roboto-Bold;
+}
+
+#cellphone-mobile-number {
+  margin: 0px auto 15px auto;
+  position: relative;
+  box-shadow: 1px 1px 3px #00000080;
+  width: 466px;
+}
+
+#cellphone-mobile-number input {
+  padding: 16px 20px;
+  text-align: center;
+  border: 0;
+  display: block;
+  width: 466px;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 16px;
+  border-radius: 2px;
+}
+
+#cellphone-mobile-number img {
+  position: absolute;
+  width: 17px;
+  height: 36px;
+  top: 8px;
+  left: 30px;
+}
+
+::placeholder {
+  font-size: 16px;
+}
+
+#sign-up-button a {
+  margin: 0px auto 15px auto;
+  padding: 15px 25px;
+  width: 416px;
+  color: #fff;
+  background: #D78A21;
+  border: none;
+  display: block;
+  text-decoration: none;
+  font-family: Roboto-Medium;
+  font-size: 22px;
+  box-shadow: 1px 1px 3px #00000080;
+  border-radius: 2px;
+}
+
+#sign-up-button a:hover {
+  background-color: #FF8300;
+}
+
+#texts {
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-family: Roboto-Regular;
+}
+
+#full-price-button a {
+  margin: 0px auto;
+  padding: 16px;
+  width: 432px;
+  font-family: Roboto-Bold;
+  font-size: 20px;
+  border: 1px solid #000;
+  border-radius: 2px;
+  box-shadow: 1px 1px 4px #00000020;
+}
+
+#full-price-button a:hover {
+  background-color: #c4c4c460
+}
+
+#close img {
+  width: 20px;
+  height: 20px;
+}
+
+#close {
+  position: relative;
+  left: 410px;
+  bottom: 670px;
+}
