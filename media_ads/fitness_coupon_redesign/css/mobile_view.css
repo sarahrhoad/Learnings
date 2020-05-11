@@ -18,26 +18,16 @@
   src: url(../font/Roboto-Regular.ttf);
 }
 
-#left-side {
-  margin: 115px auto auto 70px;
-  display: inline-block;
-}
-
-#right-side {
-  top: 96px;
-  left: 83px;
-  position: relative;
-  display: inline-block;
-}
-
 #page-wrapper {
   position: relative;
-  width: 1000px;
+  width: 390px;
+  text-align: center;
 }
 
 #background-image img {
   position: absolute;
-  width: 1000px;
+  width: 390px;
+  left: 0;
 }
 
 #on-background-image {
@@ -48,34 +38,41 @@
 }
 
 #logo img {
-  margin: 30px auto auto 45px;
-  width: 180px;
+  margin: 10px auto 20px 20px;
+  width: 160px;
+}
+
+#logo {
+  text-align: left;
 }
 
 #close img {
-  width: 24px;
+  width: 16px;
   position: absolute;
-  top: 35px;
-  left: 936px;
+  top: 16px;
+  left: 346px;
+}
+
+#bottom-section {
+  position: relative;
 }
 
 #sign-up-words p,
 #next-order p {
   margin: 0 auto;
-  font-size: 32px;
+  font-size: 24px;
 }
 
 #save-five p {
-  margin: 0 auto;
-  font-size: 80px;
-  /* font-family: Roboto-Medium; */
+  margin: 10px auto;
+  font-size: 65px;
   color: #FF8300;
   display: inline-block;
 }
 
 img#percent-sign {
-  padding-bottom: 25px;
-  width: 39px;
+  padding-bottom: 21px;
+  width: 30px;
 }
 
 a#sign-up-button,
@@ -84,12 +81,12 @@ a#no-thanks {
 }
 
 #number {
-  padding: 28px;
-  width: 424px;
+  margin-top: 40px;
+  padding: 24px;
+  width: 330px;
   border: 0;
   font-size: 14px;
   text-align: center;
-  display: block;
   box-sizing: border-box;
   border-radius: 10px;
   outline: none;
@@ -99,20 +96,20 @@ img#cellphone {
   position: absolute;
   width: 20px;
   height: 36px;
-  top: 17px;
-  left: 34px;
+  top: 55px;
+  left: 55px;
 }
 
 ::placeholder {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 a#sign-up-button {
-  margin: 25px 0;
-  padding: 24px 102px;
+  margin: 25px 0 0 30px;
+  padding: 20px 85px;
   background: #FF8300;
-  width: 220px;
-  font-size: 22px;
+  width: 160px;
+  font-size: 18px;
   font-family: Roboto-Medium;
   border-radius: 10px;
   text-align: center;
@@ -126,8 +123,7 @@ a#sign-up-button:hover {
 }
 
 a#no-thanks {
-  margin: 15px 0;
-  padding: 30px 95px;
+  padding: 25px 85px;
   width: 220px;
   border: 1px;
   font-size: 18px;
@@ -140,7 +136,7 @@ a#no-thanks:hover {
 }
 
 #bottom-verbiage {
-  margin: 200px 30px 0 30px;
+  margin: 50px 20px 0 20px;
 }
 
 #bottom-verbiage p {
