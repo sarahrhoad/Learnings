@@ -1,0 +1,235 @@
+@font-face {
+  font-family: Raleway-Regular;
+  src: url(../font/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: Raleway-Medium;
+  src: url(../font/Raleway-Medium.ttf);
+}
+
+@font-face {
+  font-family: Raleway-SemiBold;
+  src: url(../font/Raleway-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Raleway-Bold;
+  src: url(../font/Raleway-Bold.ttf);
+}
+
+@font-face {
+  font-family: Raleway-ExtraBold;
+  src: url(../font/Raleway-ExtraBold.ttf);
+}
+
+#page-wrapper {
+  margin: 50px;
+  width: 1500px;
+  height: 800px;
+  letter-spacing: 2px;
+}
+
+#logo img {
+  width: 180px;
+}
+
+#left-image-block img {
+  padding-top: 100px;
+}
+
+#right-image-block img {
+  position: relative;
+  bottom: 960px;
+  left: 1209px;
+}
+
+#design-elements-left img {
+  position: absolute;
+}
+
+img#lower-left-drops {
+  bottom: 170px;
+  left: 120px;
+}
+
+img#upper-left-drops {
+  top: 215px;
+  left: 260px;
+}
+
+#design-elements-right img {
+  position: relative;
+}
+
+img#lower-right-drops {
+  bottom: 620px;
+  left: 1180px;
+}
+
+img#upper-right-drops {
+  bottom: 750px;
+  left: 1015px;
+}
+
+#glad-back {
+  position: relative;
+  bottom: 420px;
+  text-align: center;
+  font-family: Raleway-Bold;
+  font-size: 40px;
+}
+
+#sign-in-block {
+  position: relative;
+  transform: translate(-50%, -50%);
+  bottom: 290px;
+  left: 739px;
+  width: 670px;
+}
+
+#sign-in {
+  margin: 20px 0px 20px 22px;
+  text-align: center;
+  font-family: Raleway-SemiBold;
+  font-size: 18px;
+}
+
+#no-account {
+  text-align: center;
+  position: relative;
+  bottom: 336px;
+}
+
+#no-account p {
+  margin: 0;
+  padding-bottom: 41px;
+  font-family: Raleway-SemiBold;
+  font-size: 18px;
+}
+
+a#create-account {
+  padding: 18px 48px;
+  font-family: Raleway-Medium;
+  font-size: 20px;
+  text-decoration: none;
+  color: #111111;
+  border: 1px solid #111111;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px 0px #00000080;
+}
+
+#why-join-info {
+  position: relative;
+  bottom: 251px;
+  text-align: center;
+  font-family: Raleway-Medium;
+  font-size: 20px;
+}
+
+#why-join-info p {
+  margin: 10px auto;
+}
+
+#why-join-info span {
+  font-family: Raleway-Bold;
+}
+
+#three-reasons-why p {
+  font-size: 18px;
+}
+
+#privacy-policy {
+  font-family: Raleway-Regular;
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+  bottom: 190px;
+  letter-spacing: 1px;
+}
+
+#terms {
+  font-family: Raleway-Bold;
+  font-size: 14px;
+}
+
+#privacy {
+  font-family: Raleway-Bold;
+  font-size: 14px;
+}
+
+#close {
+  width: 30px;
+  position: absolute;
+  left: 1450px;
+  top: 50px;
+  cursor: pointer;
+  color: #000;
+}
+
+.left-side-buttons {
+  margin: 0px 10px 20px 30px;
+  display: inline-block;
+}
+
+.right-side-buttons {
+  margin: 0px 0px 0px 0px;
+}
+
+a.button {
+  padding: 18px 0px;
+  font-family: Raleway-Medium;
+  font-size: 20px;
+  text-decoration: none;
+  color: #111111;
+  border: 1px solid #111111;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px 0px #00000080;
+}
+
+a.button:hover, a#create-account:hover {
+  background-color: #00000070;
+  color: #ffffff;
+}
+
+a.button.google-logo {
+  padding-left: 20px;
+}
+
+a.button.google-logo span {
+  padding: 5px 60px;
+  background: url(../images/gmail_logo.svg) no-repeat;
+}
+
+a.button.twitter-logo {
+  padding-left: 20px;
+}
+
+a.button.twitter-logo span {
+  padding: 5px 61px;
+  background: url(../images/twitter_logo.svg) no-repeat;
+}
+
+a.button.email-logo {
+  padding-left: 20px;
+}
+
+a.button.email-logo span {
+  padding: 1px 80.5px 1px 59.5px;
+  background: url(../images/email_logo.svg) no-repeat;
+}
+
+a.button.facebook-logo {
+  padding-left: 20px;
+}
+
+a.button.facebook-logo span {
+  padding: 5px 33.5px 5px 60.5px;
+  background: url(../images/facebook_logo.svg) no-repeat;
+}
+
+.breakpoint {
+  background-color: #777777;
+  width: 1500px;
+  height: 800px;
+}
