@@ -227,9 +227,3 @@ a.button.facebook-logo span {
   padding: 5px 33.5px 5px 60.5px;
   background: url(../images/facebook_logo.svg) no-repeat;
 }
-
-.breakpoint {
-  background-color: #777777;
-  width: 1500px;
-  height: 800px;
-}
