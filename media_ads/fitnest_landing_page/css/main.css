@@ -93,26 +93,44 @@
 #information-on-runner {
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
+  top: 44%;
+  left: 55%;
 }
 
-#runner-verbiage p {
+#information-on-runner .row {
+  flex-wrap: nowrap;
+}
+
+#runner-verbiage {
+  padding-top: 47px;
   color: #ffffff;
   font-family: OpenSans-Bold;
+  letter-spacing: 2px;
 }
 
-#runner-small-text1
+#runner-small-text1,
 #runner-small-text2 {
+  margin: 0;
   font-size: 18px;
 }
 
-#runner-large-text1
+#runner-large-text1,
 #runner-large-text2 {
-  padding-top: 47px;
+  margin: 0;
   font-size: 30px;
 }
 
 #runner-line img {
   padding: 47px 20px 0px 20px
+}
+
+#more-with-arrow {
+  text-align: center;
+}
+
+#more {
+  margin: 0;
+  color: #ffffff;
+  font-family: OpenSans-Regular;
+  letter-spacing: .5px;
 }
