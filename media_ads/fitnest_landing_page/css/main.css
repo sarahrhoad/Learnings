@@ -104,7 +104,13 @@
 
 #runner-small-text1
 #runner-small-text2 {
-  
+  font-size: 18px;
+}
+
+#runner-large-text1
+#runner-large-text2 {
+  padding-top: 47px;
+  font-size: 30px;
 }
 
 #runner-line img {
