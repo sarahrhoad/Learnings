@@ -82,6 +82,10 @@
   color: #77BDD9;
 }
 
+#page-wrapper {
+  position: absolute;
+}
+
 #more-section-bottom-runner {
   position: absolute;
   text-align: center;
@@ -97,7 +101,7 @@
 }
 
 #runner-image-section {
-  position: absolute;
+  position: relative;
 }
 
 #background-image img {
@@ -115,7 +119,7 @@
   flex-wrap: nowrap;
 }
 
-#runner-verbiage {
+#runner-message {
   padding-top: 47px;
   color: #ffffff;
   font-family: OpenSans-Bold;
@@ -136,4 +140,170 @@
 
 #runner-line img {
   padding: 47px 30px 0px 30px
+}
+
+#blue-1-message {
+  padding: 60px;
+  font-family: OpenSans-SemiBold;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-shadow: 1px 0px 0px #fff;
+}
+
+#blue-1-message p {
+  font-size: 26px;
+}
+
+#blue-1-message ul {
+  padding: 0px;
+  display: inline-block;
+}
+
+#blue-1-message li {
+  text-align: left;
+  font-size: 22px;
+}
+
+#flag-fitness-goals-section {
+  padding-bottom: 200px;
+}
+
+#finish-line-flag {
+  padding: 55px 30px 0px 0px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+#reach-fitness-goals-message {
+  padding-left: 30px;
+  font-family: OpenSans-Regular;
+  letter-spacing: 2px;
+  display: inline-block;
+}
+
+#reach-fitness-goals-message p {
+  font-size: 30px;
+  text-align: left;
+}
+
+#reach-fitness-goals-message ul {
+  padding-left: 15px;
+  text-align: left;
+  font-size: 20px;
+}
+
+#reach-fitness-goals-message li {
+  font-family: OpenSans-Regular;
+}
+
+#fitness-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#table-text-bold {
+  font-family: OpenSans-Bold;
+}
+
+#disclaimer-message {
+  padding-bottom: 100px;
+}
+
+#disclaimer-message p {
+  margin: 0;
+  font-family: OpenSans-SemiBoldItalic;
+  font-size: 12px;
+  color: #828282;
+  text-align: center;
+  letter-spacing: .5px;
+}
+
+#blue-2-message {
+  padding: 60px;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+#blue-2-defeated p {
+  font-family: OpenSans-SemiBold;
+  font-size: 26px;
+}
+
+#blue-2-but {
+  font-family: OpenSans-BoldItalic;
+  font-size: 36px;
+}
+
+table {
+  margin: auto;
+  padding-bottom: 200px;
+  font-size: 18px;
+  font-family: OpenSans-SemiBold;
+  border-collapse: separate;
+  border-spacing: 5px;
+}
+
+td, th {
+  width: 188px;
+  padding: 12px;
+  text-align: center;
+}
+
+.color1 {
+  background: #E4CCE7;
+}
+
+.color2 {
+  background: #CA99CF;
+}
+
+.color3 {
+  font-family: OpenSans-Bold;
+  background: #D3CCE0;
+}
+
+.color4 {
+  font-family: OpenSans-Bold;
+  background: #A899C1;
+}
+
+.column1 {
+  padding-left: 46px;
+}
+
+.checkmark {
+  background: url('../images/ic_check_green.svg') no-repeat left top;
+  height: 34px;
+  padding-left: 35px;
+}
+
+.blue-container {
+  padding: 30px;
+  background: #3B8DBF;
+  box-shadow: 0px 1px 10px 1px #00000080;
+}
+
+.white-section-1,
+.white-section-2 {
+  text-align: center;
+  color: #4F4F4F;
+}
+
+.comment-bubble-with-message {
+  padding: 100px 0px 200px 0px;
+  font-family: OpenSans-BoldItalic;
+  font-size: 18px;
+}
+
+.comment-bubble-with-message img {
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.comment-bubble-with-message p {
+  padding-left: 20px;
+  display: inline-block;
 }
