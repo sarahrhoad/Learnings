@@ -237,6 +237,11 @@
   font-size: 36px;
 }
 
+#intencity-image img,
+#interval-image img {
+  width: 276px;
+}
+
 table {
   margin: auto;
   padding-bottom: 200px;
@@ -305,5 +310,38 @@ td, th {
 
 .comment-bubble-with-message p {
   padding-left: 20px;
-  display: inline-block;
+  display: inline;
+}
+
+.white-2-intencity-interval {
+  padding-bottom: 265px;
+}
+
+.right-side-message-buttons-block {
+  padding-left: 40px;
+}
+
+.intencity-interval-message p {
+  padding-left: 140px;
+  font-family: OpenSans-Regular;
+  text-align: left;
+}
+
+.white-2-larger-text {
+  font-size: 18px;
+}
+
+
+.white-2-smaller-text {
+  font-size: 14px;
+  color: #828282;
+}
+
+.white-2-line-separator {
+  padding-left: 140px;
+  text-align: left;
+}
+
+.media-buttons {
+  padding-left: 30px;
 }
