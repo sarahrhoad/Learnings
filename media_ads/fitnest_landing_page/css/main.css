@@ -242,6 +242,74 @@
   width: 276px;
 }
 
+#interval-image {
+  padding-bottom: 265px;
+}
+
+#white-2-long-gray-line {
+  padding-bottom: 50px;
+}
+
+#gray-container-content {
+  padding: 30px;
+}
+
+#gray-large-text-message p,
+#gray-small-text-message p {
+  font-family: OpenSans-Bold;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+#gray-large-text-message span {
+  font-family: OpenSans-BoldItalic;
+}
+
+#gray-small-text-message p {
+  font-family: OpenSans-Regular;
+  font-size: 18px;
+}
+
+#signup-email-buttons {
+  text-align: center;
+}
+
+#gray-button-large input {
+  width: 400px;
+  padding: 14px 107px;
+  display: inline;
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  color: #828282;
+  border-radius: 33px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 1px 1px 1px #00000030;
+}
+
+::placeholder {
+
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+#gray-button-small {
+  margin-left: 10px;
+  padding: 15px 26px;
+  display: inline;
+  color: #ffffff;
+  text-align: center;
+  font-family: OpenSans-SemiBold;
+  font-size: 14px;
+  border-radius: 33px;
+  background-color: #77BDD9;
+  text-decoration: none;
+  letter-spacing: 2px;
+  box-shadow: 0px 1px 1px 1px #00000030;
+}
+
 table {
   margin: auto;
   padding-bottom: 200px;
@@ -313,10 +381,6 @@ td, th {
   display: inline;
 }
 
-.white-2-intencity-interval {
-  padding-bottom: 265px;
-}
-
 .right-side-message-buttons-block {
   padding-left: 40px;
 }
@@ -331,7 +395,6 @@ td, th {
   font-size: 18px;
 }
 
-
 .white-2-smaller-text {
   font-size: 14px;
   color: #828282;
@@ -344,4 +407,10 @@ td, th {
 
 .media-buttons {
   padding-left: 30px;
+}
+
+.gray-container {
+  padding: 60px;
+  background: #828282;
+  box-shadow: 0px 1px 10px 1px #00000080;
 }
