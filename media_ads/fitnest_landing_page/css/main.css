@@ -68,7 +68,6 @@ td, th {
   height: 80px;
   box-shadow: 0px 1px 5px 1px #00000080;
   display: inline-block;
-  z-index: 1;
 }
 
 #logo {
@@ -97,10 +96,6 @@ td, th {
   color: #77BDD9;
 }
 
-#page-wrapper {
-  position: absolute;
-}
-
 #more-section-bottom-runner {
   position: absolute;
   text-align: center;
@@ -124,18 +119,15 @@ td, th {
 }
 
 #information-on-runner {
+  display: inline-block;
   position: absolute;
-  transform: translate(-50%, -50%);
-  top: 44%;
-  left: 55%;
-}
-
-#information-on-runner .row {
-  flex-wrap: nowrap;
+  top: 27%;
+  left: 31%;
 }
 
 #runner-message {
-  padding-top: 47px;
+  vertical-align: middle;
+  display: inline;
   color: #ffffff;
   font-family: OpenSans-Bold;
   letter-spacing: 2px;
@@ -153,8 +145,19 @@ td, th {
   font-size: 30px;
 }
 
+#percentage,
+#runner-line,
+#runner-message {
+  display: inline-block;
+}
+
+#percentage img {
+  display: inline;
+}
+
 #runner-line img {
-  padding: 47px 30px 0px 30px
+  display: inline;
+  padding: 0px 30px;
 }
 
 #blue-1-message {
@@ -216,6 +219,10 @@ td, th {
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+#long-blue-line-separator img {
+  width: 66%;
 }
 
 #table-text-bold {
@@ -436,15 +443,23 @@ td, th {
 }
 
 .footer {
-  padding: 100px 100px 100px 300px;
+  /* padding: 100px 100px 100px 300px; */
+  padding: 100px;
   letter-spacing: 1px;
   color: #828282;
 }
 
-.footer-news-links {
+/* .footer-references-side {
+  width: 75%;
+} */
+.footer-reference-links {
   margin-bottom: 5px;
   font-family: OpenSans-Regular;
   font-size: 12px;
+}
+
+.footer-media-side {
+  padding-left: 100px;
 }
 
 .footer-media-link {
@@ -452,3 +467,25 @@ td, th {
   font-family: OpenSans-Regular;
   font-size: 12px;
 }
+
+@media screen and (orientation: portrait) and (max-width: 1200px) {
+  .footer {
+    padding: 60px;
+    display: block;
+  }
+
+  .footer-media-side {
+    padding-left: 0;
+  }
+}
+
+@media screen and (orientation: portrait) and (max-width: 600px) {
+  .footer {
+    padding: 60px;
+    display: block;
+  }
+}
+
+@media only (orientation: landscape) and (max-width: 600px) {}
+
+@media only (orientation: landscape) and (max-width: 600px) {}
