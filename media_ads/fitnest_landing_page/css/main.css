@@ -122,7 +122,7 @@ td, th {
   display: inline-block;
   position: absolute;
   top: 27%;
-  left: 31%;
+  left: 24%;
 }
 
 #runner-message {
@@ -152,7 +152,7 @@ td, th {
 }
 
 #percentage img {
-  display: inline;
+  width: 100% display: inline;
 }
 
 #runner-line img {
@@ -179,6 +179,7 @@ td, th {
 }
 
 #blue-1-message li {
+  padding-bottom: 5px;
   text-align: left;
   font-size: 22px;
 }
@@ -191,6 +192,10 @@ td, th {
   padding: 55px 30px 0px 0px;
   vertical-align: top;
   display: inline-block;
+}
+
+#finish-line-flag img {
+  width: 100%;
 }
 
 #reach-fitness-goals-message {
@@ -300,7 +305,7 @@ td, th {
 
 #gray-button-large input {
   width: 400px;
-  padding: 14px 107px;
+  padding: 14px 0px;
   display: inline;
   font-family: OpenSans-Regular;
   font-size: 14px;
@@ -313,15 +318,13 @@ td, th {
 
 ::placeholder {
   letter-spacing: 1px;
-  text-align: left;
+  text-align: center;
 }
 
 #gray-button-small {
   margin-left: 10px;
   padding: 15px 26px;
-  display: inline;
   color: #ffffff;
-  text-align: center;
   font-family: OpenSans-SemiBold;
   font-size: 14px;
   border-radius: 33px;
@@ -433,7 +436,15 @@ td, th {
 }
 
 .media-buttons {
-  padding-left: 30px;
+  padding-left: 40px;
+}
+
+.apple-image {
+  padding-right: 5px;
+}
+
+.google-image {
+  padding-left: 5px;
 }
 
 .gray-container {
@@ -468,24 +479,161 @@ td, th {
   font-size: 12px;
 }
 
-@media screen and (orientation: portrait) and (max-width: 1200px) {
-  .footer {
-    padding: 60px;
-    display: block;
+@media (max-width: 1200px), screen and (orientation: portrait) {
+  #intencity-image img,
+  #interval-image img {
+    width: 236px;
   }
 
-  .footer-media-side {
-    padding-left: 0;
+  .intencity-interval-message p,
+  .white-2-line-separator {
+    padding-left: 96px;
+  }
+
+  .white-2-larger-text {
+    font-size: 14px;
+  }
+
+  .white-2-smaller-text {
+    font-size: 12px;
+  }
+
+  .media-buttons {
+    padding-left: 0px;
+    padding-right: 28px;
+  }
+
+  .apple-image,
+  .google-image {
+    width: 120px;
   }
 }
 
-@media screen and (orientation: portrait) and (max-width: 600px) {
-  .footer {
-    padding: 60px;
+@media (max-width: 1000px), screen and (orientation: portrait) {
+  #finish-line-flag img {
+    width: 120px;
+  }
+
+  #reach-fitness-goals-message p {
+    font-size: 24px;
+  }
+
+  #reach-fitness-goals-message ul {
+    font-size: 16px;
+  }
+
+  #intencity-image,
+  #interval-image {
+    padding-bottom: 20px;
+  }
+
+  .white-2-blocks {
     display: block;
+  }
+
+  .right-side-message-buttons-block {
+    padding-left: 0px;
+  }
+
+  .intencity-interval-message p {
+    padding-left: 0px;
+    font-family: OpenSans-Regular;
+    text-align: center;
+  }
+
+  .white-2-line-separator {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .media-buttons {
+    padding: 0px;
+  }
+
+  .apple-image {
+    padding-right: 5px;
+  }
+
+  .google-image {
+    padding-left: 5px;
+  }
+
+  .white-2-intencity-interval {
+    padding-bottom: 265px;
+  }
+ }
+
+@media (max-width: 768px), screen and (orientation: portrait) {
+
+  #blue-1-message,
+  #blue-2-message {
+    padding: 30px;
+  }
+
+  #blue-1-message p {
+    font-size: 22px;
+  }
+
+  #blue-1-message ul {
+    display: block;
+  }
+
+  #blue-1-message li {
+    font-size: 18px;
+  }
+
+  #finish-line-flag img {
+    width: 120px;
+    padding-bottom: 50px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  td, th {
+    width: 188px;
+    padding: 7px;
+    text-align: center;
+  }
+
+  .column1 {
+    padding-left: 0px;
+  }
+
+  .table-image img {
+    width: 35px;
+  }
+
+  #gray-container {
+    padding: 40px;
+  }
+
+  #gray-container-content {
+    padding: 15px;
+  }
+
+  #gray-button-large input {
+    margin-bottom: 30px;
+    width: 100%;
   }
 }
 
-@media only (orientation: landscape) and (max-width: 600px) {}
+@media (max-width: 640px), screen and (orientation: landscape) {
+  #finish-line-flag img {
+    width: 100px;
+  }
 
-@media only (orientation: landscape) and (max-width: 600px) {}
+  #reach-fitness-goals-message p {
+    font-size: 18px;
+  }
+
+  #reach-fitness-goals-message ul {
+    font-size: 16px;
+  }
+}
+
+
+/* @media (max-width: px), screen and (orientation: portrait) {}
+
+@media (max-width: px), screen and (orientation: landscape) {} */
