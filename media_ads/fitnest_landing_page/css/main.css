@@ -106,6 +106,7 @@ td, th {
 #more {
   margin: 0;
   color: #ffffff;
+  font-size: 14px;
   font-family: OpenSans-Regular;
   letter-spacing: .5px;
 }
@@ -114,15 +115,20 @@ td, th {
   position: relative;
 }
 
+#background-image {
+  overflow-x: hidden;
+}
+
 #background-image img {
-  width: 100%;
+  min-width: 100%;
+  height: 100vh;
 }
 
 #information-on-runner {
-  display: inline-block;
+  width: auto;
   position: absolute;
   top: 27%;
-  left: 24%;
+  left: 25%;
 }
 
 #runner-message {
@@ -152,11 +158,12 @@ td, th {
 }
 
 #percentage img {
-  width: 100% display: inline;
+  width: 100%;
+  display: inline-block;
 }
 
 #runner-line img {
-  display: inline;
+  display: inline-block;
   padding: 0px 30px;
 }
 
@@ -303,7 +310,7 @@ td, th {
   text-align: center;
 }
 
-#gray-button-large input {
+#gray-email-input input {
   width: 400px;
   padding: 14px 0px;
   display: inline;
@@ -321,7 +328,7 @@ td, th {
   text-align: center;
 }
 
-#gray-button-small {
+#gray-signup-button {
   margin-left: 10px;
   padding: 15px 26px;
   color: #ffffff;
@@ -334,7 +341,7 @@ td, th {
   box-shadow: 0px 1px 1px 1px #00000030;
 }
 
-#gray-button-small:hover {
+#gray-signup-button:hover {
   background-color: #68A5BD;
 }
 
@@ -353,6 +360,10 @@ td, th {
   font-family: OpenSans-BoldItalic;
   font-size: 18px;
   color: #828282;
+}
+
+#cdc-link {
+  word-wrap: break-word;
 }
 
 .color1 {
@@ -396,7 +407,7 @@ td, th {
 }
 
 .comment-bubble-with-message {
-  padding: 100px 0px 200px 0px;
+  padding: 100px 30px 200px 30px;
   font-family: OpenSans-BoldItalic;
   font-size: 18px;
 }
@@ -454,32 +465,50 @@ td, th {
 }
 
 .footer {
-  /* padding: 100px 100px 100px 300px; */
   padding: 100px;
   letter-spacing: 1px;
   color: #828282;
 }
 
-/* .footer-references-side {
-  width: 75%;
-} */
-.footer-reference-links {
+.footer-news-links {
   margin-bottom: 5px;
   font-family: OpenSans-Regular;
   font-size: 12px;
 }
 
-.footer-media-side {
-  padding-left: 100px;
+.footer-right-media-side {
+  padding-left: 50px;
 }
 
-.footer-media-link {
+.footer-media-logo {
   padding-right: 10px;
-  font-family: OpenSans-Regular;
-  font-size: 12px;
 }
 
-@media (max-width: 1200px), screen and (orientation: portrait) {
+@media (max-width: 1300px){
+  #information-on-runner {
+    left: 18%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #information-on-runner {
+    left: 22%;
+  }
+
+  #percentage img {
+    width: 180px;
+  }
+
+  #runner-small-text1,
+  #runner-small-text2 {
+    font-size: 14px;
+  }
+
+  #runner-large-text1,
+  #runner-large-text2 {
+    font-size: 22px;
+  }
+
   #intencity-image img,
   #interval-image img {
     width: 236px;
@@ -491,11 +520,11 @@ td, th {
   }
 
   .white-2-larger-text {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .white-2-smaller-text {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .media-buttons {
@@ -509,9 +538,27 @@ td, th {
   }
 }
 
-@media (max-width: 1000px), screen and (orientation: portrait) {
-  #finish-line-flag img {
-    width: 120px;
+@media screen and (max-width: 1000px) {
+  #runner-small-text1,
+  #runner-small-text2 {
+    font-size: 12px;
+  }
+
+  #runner-large-text1,
+  #runner-large-text2 {
+    font-size: 18px;
+  }
+
+  #percentage img {
+    width: 140px;
+  }
+
+  #runner-line img {
+    height: 90px;
+  }
+
+  #reach-fitness-goals-message {
+    padding-left: 20px;
   }
 
   #reach-fitness-goals-message p {
@@ -519,7 +566,7 @@ td, th {
   }
 
   #reach-fitness-goals-message ul {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   #intencity-image,
@@ -535,13 +582,8 @@ td, th {
     padding-left: 0px;
   }
 
+  .white-2-line-separator,
   .intencity-interval-message p {
-    padding-left: 0px;
-    font-family: OpenSans-Regular;
-    text-align: center;
-  }
-
-  .white-2-line-separator {
     padding-left: 0px;
     text-align: center;
   }
@@ -561,16 +603,40 @@ td, th {
   .white-2-intencity-interval {
     padding-bottom: 265px;
   }
- }
 
-@media (max-width: 768px), screen and (orientation: portrait) {
+  .footer-right-media-side {
+    padding-bottom: 50px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+
+  td, th {
+    width: 188px;
+    padding: 7px;
+    text-align: center;
+  }
+
+  #information-on-runner {
+    left: 10%;
+  }
+
+  #runner-large-text1,
+  #runner-large-text2 {
+    font-size: 16px;
+  }
 
   #blue-1-message,
   #blue-2-message {
     padding: 30px;
   }
 
-  #blue-1-message p {
+  #blue-1-message p,
+  #blue-2-defeated p {
     font-size: 22px;
   }
 
@@ -582,27 +648,26 @@ td, th {
     font-size: 18px;
   }
 
+  #finish-line-flag {
+    padding: 55px 30px 0px 0px;
+  }
+
   #finish-line-flag img {
-    width: 120px;
     padding-bottom: 50px;
   }
 
-  table {
-    font-size: 14px;
+  #blue-2-but {
+    font-size: 30px;
   }
 
-  td, th {
-    width: 188px;
-    padding: 7px;
-    text-align: center;
+  #white-2-long-gray-line {
+    padding-top: 50px;
+    padding-bottom: 60px;
   }
 
-  .column1 {
-    padding-left: 0px;
-  }
-
-  .table-image img {
-    width: 35px;
+  #intencity-image img,
+  #interval-image img {
+    width: 200px;
   }
 
   #gray-container {
@@ -613,27 +678,63 @@ td, th {
     padding: 15px;
   }
 
-  #gray-button-large input {
+  #gray-email-input input {
     margin-bottom: 30px;
     width: 100%;
   }
+
+  #gray-signup-button {
+    margin-left: 0;
+  }
+
+  .column1 {
+    padding-left: 0px;
+  }
+
+  .table-image img {
+    width: 35px;
+  }
+
+  .footer {
+    padding: 60px;
+  }
+
+  .footer-right-media-side {
+    padding-left: 15px;
+  }
+
+  .footer-left-references-side {
+    padding-left: 15px;
+  }
 }
 
-@media (max-width: 640px), screen and (orientation: landscape) {
+@media (max-width: 500px) {
+  #more-section-bottom-runner {
+    left: 45%;
+  }
+
+  #finish-line-flag {
+    padding: 0;
+  }
+
   #finish-line-flag img {
-    width: 100px;
+    padding-bottom: 50px;
   }
 
-  #reach-fitness-goals-message p {
-    font-size: 18px;
+  #reach-fitness-goals-message {
+    padding-left: 27px;
   }
 
-  #reach-fitness-goals-message ul {
+  #footer-social-media-message {
     font-size: 16px;
   }
 }
 
-
-/* @media (max-width: px), screen and (orientation: portrait) {}
-
-@media (max-width: px), screen and (orientation: landscape) {} */
+@media (max-width: 400px) {
+  #information-on-runner {
+    padding-left: 45px;
+  }
+  #reach-fitness-goals-message {
+    padding-left: 30px;
+  }
+}
