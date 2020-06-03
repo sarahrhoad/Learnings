@@ -731,6 +731,7 @@ td, th {
 
   .comment-bubble-with-message img {
     margin: auto;
+    padding-bottom: 12px;
     display: block;
   }
 }
