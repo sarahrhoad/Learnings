@@ -708,7 +708,7 @@ td, th {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   #more-section-bottom-runner {
     left: 45%;
   }
@@ -727,6 +727,11 @@ td, th {
 
   #footer-social-media-message {
     font-size: 16px;
+  }
+
+  .comment-bubble-with-message img {
+    margin: auto;
+    display: block;
   }
 }
 
