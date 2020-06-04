@@ -465,7 +465,7 @@ td, th {
 }
 
 .footer {
-  padding: 100px;
+  padding: 100px 100px 40px;
   letter-spacing: 1px;
   color: #828282;
 }
