@@ -20,10 +20,10 @@
     background-color: #3E1C4980;
 }
 
-.grid .bar::before {
+/* .grid .bar::before {
     content: attr(data-name);
     position: relative;
-}
+} */
 
 .grid.horizontal {
     margin-top: 100px;
@@ -58,8 +58,17 @@
     margin: auto 0 auto 0;
 }
 
-.bar-name {
+.dev-skills {
+    padding: 20px;
+    height: 100%;
+    top: 100px;
     float: left;
+    text-align: right;
+    position: relative;
+}
+
+.bar-name {
+    height: 67px;
 }
 
 #img1 {
