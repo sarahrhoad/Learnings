@@ -10,27 +10,36 @@
 
 <body>
 
-    <div class="chart-wrap">
-        <h2 class="title">HTML Bar Graph Example Using Flexbox</h2>
+    <div class="container-fluid chart-wrap">
         <div id="img1" class="line-pos-1">
-            <img src="images/skills_first_plant.svg" alt="Light purple seedling">
+            <img src="images/skills_first_plant.svg" alt="Light purple seed">
+        </div>
+        <div id="img2" class="line-pos-2">
+            <img src="images/skills_second_plant.svg" alt="Light purple seedling">
+        </div>
+        <div id="img3" class="line-pos-3">
+            <img src="images/skills_third_plant.svg" alt="Light purple plant">
         </div>
         <div class="grid horizontal">
             <div class="line line-pos-1"></div>
             <div class="line line-pos-2"></div>
             <div class="line line-pos-3"></div>
 
+            <div class="bar" style="--bar-value:80%;" data-name="HTML"></div>
+            <div class="bar" style="--bar-value:80%;" data-name="CSS"></div>
+            <div class="bar" style="--bar-value:60%;" data-name="Bootstrap"></div>
+            <div class="bar" style="--bar-value:40%;" data-name="WordPress"></div>
+            <div class="bar" style="--bar-value:15%;" data-name="JavaScript"></div>
+            <div class="bar" style="--bar-value:15%;" data-name="JQuery"></div>
+        </div>
 
-           <div class="grid horizontal1">
-               <div class="bar" style="--bar-value:10%;" data-name="Your Blog" title="Your Blog 85%"></div>
-               <div class="bar" style="--bar-value:23%;" data-name="Medium" title="Medium 23%"></div>
-               <div class="bar" style="--bar-value:7%;" data-name="Tumblr" title="Tumblr 7%"></div>
-               <div class="bar" style="--bar-value:38%;" data-name="Facebook" title="Facebook 38%"></div>
-               <div class="bar" style="--bar-value:35%;" data-name="YouTube" title="YouTube 35%"></div>
-               <div class="bar" style="--bar-value:30%;" data-name="LinkedIn" title="LinkedIn 30%"></div>
-               <div class="bar" style="--bar-value:5%;" data-name="Twitter" title="Twitter 5%"></div>
-               <div class="bar" style="--bar-value:20%;" data-name="Other" title="Other 20%"></div>
-           </div>
+        <div class="horizontal">
+            <div class="bar bar-name">HTML</div>
+            <div class="bar bar-name">CSS</div>
+            <div class="bar bar-name">Bootstrap</div>
+            <div class="bar bar-name">WordPress</div>
+            <div class="bar bar-name">JavaScript</div>
+            <div class="bar bar-name">JQuery</div>
         </div>
     </div>
 
