@@ -1,0 +1,107 @@
+table {
+    width: 0;
+    padding: 0 10px;
+    line-height: 30px;
+}
+
+td {
+    padding: 20px;
+    text-align: right;
+}
+
+td,
+td>div {
+    height: 100%;
+    position: relative;
+}
+
+.dev-bar {
+    background-color: #3E1C4990;
+}
+
+#plant-1 {
+    padding: 0 120px;
+}
+
+#plant-2 {
+    padding: 0 120px;
+}
+
+#plant-3 {
+    padding: 0 120px;
+}
+
+#vertical-line1,
+#vertical-line2,
+#vertical-line3 {
+    border-right: 2px dashed #000000;
+    position: absolute;
+    height: 320px;
+}
+
+#vertical-line1 {
+    left: 88px;
+}
+
+#vertical-line2 {
+    right: 163px;
+}
+
+#vertical-line3 {
+    left: 95px;
+}
+
+#dashed-lines {
+    height: 100%;
+    position: relative;
+}
+
+#plant-header-table {
+    /* width: 0 */
+    margin: auto;
+}
+
+#developer-table {
+    width: 0;
+    margin: auto;
+    border-spacing: 20px;
+    border-collapse: separate;
+    background-color: #fdfdfd;
+    color: #000000;
+    font-size: 16px;
+}
+
+#empty-plant-row {
+    padding-right: 330px;
+}
+
+#solid-vertical-line {
+    border-right: 2px solid #000000;
+    position: absolute;
+    height: 320px;
+    left: 96px;
+}
+
+#html-bar {
+    width: 80%;
+}
+
+#css-bar {
+    width: 500px;
+}
+
+#bootstrap-bar {
+    width: 300px;
+}
+
+#wordpress-bar {
+    width: 250px;
+}
+
+#javascript-bar {
+    width: 100px;
+}
+
+#jquery-bar {
+    width: 10px;
+}
