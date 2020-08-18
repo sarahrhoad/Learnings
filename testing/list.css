@@ -1,0 +1,109 @@
+.verbiage {
+    margin: 200px;
+}
+
+.point {
+    padding-right: 30px;
+}
+
+/* #amazon-figma-bar {
+    height: 30px;
+    --bar-value: 15%;
+    width: var(--bar-value);
+    background-color: #1FBBA6B2;
+}
+
+#amazon-aff-photo-bar {
+    height: 30px;
+    --bar-value: 10%;
+    width: var(--bar-value);
+    background-color: #1FBBA6B2;
+}
+
+#amazon-html-bar {
+    height: 30px;
+    --bar-value: 37.5%;
+    width: var(--bar-value);
+    background-color: #3E1C49B2;
+}
+
+#amazon-css-bar {
+    height: 30px;
+    --bar-value: 37.5%;
+    width: var(--bar-value);
+    background-color: #3E1C49B2;
+} */
+
+#tech-used-graph {
+    width: 100%;
+}
+
+/* #tech-used-graph {
+    padding: 100px;
+    width: 100%;
+} */
+
+#amazon-graph {
+    width: 500px;
+}
+
+#amazon-figma {
+    width: 9%;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+#amazon-figma-bar {
+    width: 9%;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    background-color: #1FBBA6B2;
+}
+
+#amazon-aff-photo {
+    width: 6%;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+#amazon-aff-photo-bar {
+    width: 6%;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    background-color: #1FBBA6B2;
+}
+
+#amazon-html {
+    width: 34%;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+#amazon-html-bar {
+    width: 34%;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    background-color: #3E1C49B2;
+}
+
+#amazon-css {
+    width: 34%;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+#amazon-css-bar {
+    width: 34%;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    background-color: #3E1C49B2;
+}
+
