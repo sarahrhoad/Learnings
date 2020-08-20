@@ -6,56 +6,34 @@
     padding-right: 30px;
 }
 
-/* #amazon-figma-bar {
-    height: 30px;
-    --bar-value: 15%;
-    width: var(--bar-value);
-    background-color: #1FBBA6B2;
-}
-
-#amazon-aff-photo-bar {
-    height: 30px;
-    --bar-value: 10%;
-    width: var(--bar-value);
-    background-color: #1FBBA6B2;
-}
-
-#amazon-html-bar {
-    height: 30px;
-    --bar-value: 37.5%;
-    width: var(--bar-value);
-    background-color: #3E1C49B2;
-}
-
-#amazon-css-bar {
-    height: 30px;
-    --bar-value: 37.5%;
-    width: var(--bar-value);
-    background-color: #3E1C49B2;
-} */
-
 #tech-used-graph {
     width: 100%;
+    /* display: flex; */
 }
 
-/* #tech-used-graph {
-    padding: 100px;
-    width: 100%;
-} */
-
 #amazon-graph {
-    width: 500px;
+    display: flex;
+    width: 100%;
+}
+
+#amazon-names {
+    display: inline;
+    /* width: 100%; */
+}
+
+#amazon-bars {
+    display: inline;
+    /* width: 100%; */
 }
 
 #amazon-figma {
-    width: 9%;
-    height: 30px;
+    width: 15%;
     display: inline-block;
     text-align: center;
 }
 
 #amazon-figma-bar {
-    width: 9%;
+    width: 15%;
     height: 30px;
     display: inline-block;
     text-align: center;
@@ -63,14 +41,13 @@
 }
 
 #amazon-aff-photo {
-    width: 6%;
-    height: 30px;
+    width: 10%;
     display: inline-block;
     text-align: center;
 }
 
 #amazon-aff-photo-bar {
-    width: 6%;
+    width: 10%;
     height: 30px;
     display: inline-block;
     text-align: center;
@@ -78,14 +55,13 @@
 }
 
 #amazon-html {
-    width: 34%;
-    height: 30px;
+    width: 36.5%;
     display: inline-block;
     text-align: center;
 }
 
 #amazon-html-bar {
-    width: 34%;
+    width: 36.5%;
     height: 30px;
     display: inline-block;
     text-align: center;
@@ -93,17 +69,61 @@
 }
 
 #amazon-css {
-    width: 34%;
-    height: 30px;
+    width: 36.5%;
     display: inline-block;
     text-align: center;
 }
 
 #amazon-css-bar {
-    width: 34%;
+    width: 36.5%;
     height: 30px;
     display: inline-block;
     text-align: center;
     background-color: #3E1C49B2;
 }
 
+#graph-bracket {
+    display: inline;
+    width: 100%;
+}
+
+#graph-line1 {
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    height: 10px;
+}
+
+#graph-line2 {
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    border-top: 2px solid #000;
+    height: 12px;
+}
+
+#graph-duration {
+    text-align: center;
+}
+
+
+body {
+    position: absolute;
+}
+
+.mycolumn {
+    width: 96%;
+    margin-top: 50px;
+}
+
+.container {
+    height: 350px;
+    background: #fff;
+    padding: 60px;
+    box-shadow: 0 0 20px #777;
+}
+
+.slider {
+    border: 2px solid #000;
+    position: relative;
+    max-height: 500px;
+    margin: 0 auto;
+}
