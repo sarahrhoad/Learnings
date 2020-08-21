@@ -1,30 +1,46 @@
-.verbiage {
-    margin: 200px;
-}
-
-.point {
-    padding-right: 30px;
-}
-
-#tech-used-graph {
-    width: 100%;
+.container-fluid.section-wrapper {
+    padding: 100px;
     /* display: flex; */
 }
 
-#amazon-graph {
-    display: flex;
-    width: 100%;
+.content-flex-wrapper {
+    /* width: 100%;
+    display: inline-block;
+    display: flex; */
 }
+
+.project-section-title {
+    /* display: inline-block;
+    padding-left: 100px;
+    vertical-align: top;
+    flex: 1; */
+}
+
+.project-section-title p {
+    margin-bottom: 30px;
+    font-family: Kalam-Bold;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #474747
+}
+
+#tech-graph-wrapper {
+    /* display: inline-block;
+    flex: 2; */
+}
+
+#graph-tech-used {
+    /* padding-left: 100px;
+    width: 100%; */
+}
+
+#amazon-graph {}
 
 #amazon-names {
-    display: inline;
-    /* width: 100%; */
+    /* width: 100vh; */
 }
 
-#amazon-bars {
-    display: inline;
-    /* width: 100%; */
-}
+#amazon-bars {}
 
 #amazon-figma {
     width: 15%;
@@ -55,13 +71,13 @@
 }
 
 #amazon-html {
-    width: 36.5%;
+    width: 20%;
     display: inline-block;
     text-align: center;
 }
 
 #amazon-html-bar {
-    width: 36.5%;
+    width: 20%;
     height: 30px;
     display: inline-block;
     text-align: center;
@@ -69,13 +85,13 @@
 }
 
 #amazon-css {
-    width: 36.5%;
+    width: 20%;
     display: inline-block;
     text-align: center;
 }
 
 #amazon-css-bar {
-    width: 36.5%;
+    width: 20%;
     height: 30px;
     display: inline-block;
     text-align: center;
@@ -83,8 +99,7 @@
 }
 
 #graph-bracket {
-    display: inline;
-    width: 100%;
+    width: 835px;
 }
 
 #graph-line1 {
@@ -102,28 +117,4 @@
 
 #graph-duration {
     text-align: center;
-}
-
-
-body {
-    position: absolute;
-}
-
-.mycolumn {
-    width: 96%;
-    margin-top: 50px;
-}
-
-.container {
-    height: 350px;
-    background: #fff;
-    padding: 60px;
-    box-shadow: 0 0 20px #777;
-}
-
-.slider {
-    border: 2px solid #000;
-    position: relative;
-    max-height: 500px;
-    margin: 0 auto;
 }

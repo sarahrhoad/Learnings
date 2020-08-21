@@ -1,0 +1,115 @@
+.button-1 {
+    padding: 12px 25px;
+    height: 30px;
+    border: none;
+    border-radius: 90px;
+    color: #fdfdfd;
+    background: #3E1C49;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    /* font-family: RobotoCondensed-Bold; */
+    box-shadow: 0 1px 5px 1px #0000004C;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+.button-1:hover {
+    background: #56445B;
+    text-decoration: none;
+    color: #fdfdfd;
+}
+
+.button-view-full-design {
+    padding-left: 100px;
+    display: inline-block;
+}
+
+.button-3 {
+    padding: 12px 25px;
+    height: 30px;
+    border: 2px solid #000;
+    border-radius: 90px;
+    color: #000;
+    /* background: #3E1C49; */
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    /* font-family: RobotoCondensed-Bold; */
+    box-shadow: 0 1px 5px 1px #0000004C;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+.button-3:hover {
+    background: #ECE8ED;
+    border: 2px solid #3E1C49;
+    text-decoration: none;
+    color: #3E1C49;
+}
+
+.container-fluid.section-wrapper {
+    padding: 100px;
+    display: flex;
+}
+
+.content-flex-wrapper {
+    display: flex;
+}
+
+.project-section-title {
+    padding-left: 100px;
+    vertical-align: top;
+    /* flex: 1; */
+}
+
+.project-section-title p {
+    margin-bottom: 30px;
+    font-family: Kalam-Bold;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #474747
+}
+
+.overview-info-wrapper {
+    margin: 0 auto;
+}
+
+.verbiage p {
+    padding: 0 30px;
+    display: inline-block;
+    /* font-family: RobotoCondensed-Regular; */
+    letter-spacing: 1px;
+}
+
+.bullet-point {
+    display: inline-block;
+}
+
+.button-source-code {
+    margin-top: 60px;
+}
+
+.source-code a {
+    padding: 8px;
+    /* font-family: RobotoCondensed-Bold; */
+    font-size: 20px;
+    color: #3E1C49;
+    border: 2.5px solid #3E1C49;
+    text-decoration: none;
+}
+
+.source-code a:hover {
+    color: #1FBBA6;
+    border: 2.5px solid #1FBBA6;
+}
+
+#bullet-2-lines {
+    margin-bottom: 30px;
+}
+
+#bullet-3-lines {
+    margin-bottom: 50px;
+}
