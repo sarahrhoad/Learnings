@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="list.css">
+    <link rel="stylesheet" href="../css/list.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
 
@@ -16,42 +16,42 @@
 </head>
 
 <body>
-    <div class="close-menu-page-wrapper">
-        <div class="container-fluid section-wrapper">
-            <div class="project-section-title">
-                <p>Overview</p>
-                <div><img src="images/three_dots.svg" alt="Three green dots"></div>
+    <div class="container-fluid section-wrapper">
+        <div class="row project-section-title">
+            <p>Overview</p>
+        </div>
+        <div class="row overview-info-wrapper">
+            <div class="col three-dots">
+                <img src="../images/three_dots.svg" alt="Three green dots">
             </div>
-
-            <div class="overview-info-wrapper">
-                <div class="overview-information">
-                    <div class="verbiage">
-                        <div>
-                            <img class="bullet-point" src="images/bullet_point_drop.svg"
-                                alt="Tiny light purple rain drop">
-                            <p>The landing page is fully responsive using HTML and CSS.</p>
-                        </div>
-                        <div>
-                            <img class="bullet-point" id="bullet-2-lines" src="images/bullet_point_drop.svg"
-                                alt="Tiny light purple rain drop">
-                            <p>Throughout the page Bootstrap was used to help minimize the number <br> of media queries
-                                needed
-                                for responsiveness.</p>
-                        </div>
-                        <div>
-                            <img class="bullet-point" src="images/bullet_point_drop.svg"
-                                alt="Tiny light purple rain drop">
-                            <p>I created the page from a Figma mockup provided to me by the client.</p>
-                        </div>
+            <div class="col-6 overview-information">
+                <div class="verbiage">
+                    <div>
+                        <img class="bullet-point" src="../images/bullet_point_drop.svg"
+                            alt="Tiny light purple rain drop">
+                        <p>The landing page is fully responsive using HTML and CSS.</p>
                     </div>
-                    <div class="button-source-code" id="marketing-button">
-                        <a class="button-1"
-                            href="https://github.com/sarahrhoad/projects/tree/master/media_ads/marketing_campaign"
-                            target="_blank">Source Code</a>
+                    <div>
+                        <img class="bullet-point" id="bullet-2-lines" src="../images/bullet_point_drop.svg"
+                            alt="Tiny light purple rain drop">
+                        <p>Throughout the page Bootstrap was used to help minimize the number <span
+                                id="verbiage-break">of media
+                                queries needed for
+                                responsiveness.</span></p>
                     </div>
-                    <div class="button-view-full-design">
-                        <a class="button-3" href="fitnest/marketing_campaign.html" target="_blank">View Full Design</a>
+                    <div>
+                        <img class="bullet-point" src="../images/bullet_point_drop.svg"
+                            alt="Tiny light purple rain drop">
+                        <p>I created the page from a Figma mockup provided to me by the client.</p>
                     </div>
+                </div>
+                <div class="button-source-code" id="marketing-button">
+                    <a class="button-1"
+                        href="https://github.com/sarahrhoad/projects/tree/master/media_ads/marketing_campaign"
+                        target="_blank">Source Code</a>
+                </div>
+                <div class="button-view-full-design">
+                    <a class="button-3" href="fitnest/marketing_campaign.html" target="_blank">View Full Design</a>
                 </div>
             </div>
         </div>
