@@ -1,4 +1,4 @@
-@import "../fonts.css";
+@import "fonts.css";
 
 .button-contact {
     padding: 100px 0;
@@ -24,35 +24,6 @@
 
 .button-1:hover {
     background: #56445B;
-    text-decoration: none;
-    color: #fdfdfd;
-}
-
-.button-resume {
-    padding-top: 100px;
-}
-
-.button-2 {
-    padding: 12px 25px;
-    height: 30px;
-    position: relative;
-    z-index: 1;
-    border: none;
-    border-radius: 90px;
-    color: #3E1C49;
-    background: #fdfdfd;
-    text-decoration: none;
-    font-weight: bold;
-    letter-spacing: 1px;
-    font-family: RobotoCondensed-Bold;
-    font-size: 22px;
-    box-shadow: 0 1px 5px 1px #0000004C;
-    text-rendering: optimizeLegibility !important;
-    -webkit-font-smoothing: antialiased !important;
-}
-
-.button-2:hover {
-    background: #1FBBA6;
     text-decoration: none;
     color: #fdfdfd;
 }
@@ -85,26 +56,26 @@
     color: #3E1C49;
 }
 
-.section-header-top-margin {
-    margin-top: 100px;
+.source-code a {
+    padding: 8px;
+    font-family: RobotoCondensed-Bold;
+    font-size: 20px;
+    color: #3E1C49;
+    border: 2.5px solid #3E1C49;
+    text-decoration: none;
 }
 
-.image-wrapper {
-    margin: 0 auto;
-    z-index: 2;
+.button-source-code {
+    margin-top: 60px;
 }
 
-.section-wrapper {
-    padding: 100px 100px 100px 200px;
-    /* display: flex; */
+.source-code a:hover {
+    color: #1FBBA6;
+    border: 2.5px solid #1FBBA6;
 }
 
-.content-flex-wrapper {
-    display: flex;
-}
-
-.project-section-title {
-    /* padding-left: 100px; */
+.container-fluid.section-wrapper {
+    padding: 100px;
 }
 
 .project-section-title p {
@@ -115,14 +86,21 @@
     color: #474747
 }
 
+.overview-info-wrapper {
+    overflow: hidden;
+}
+
+.overview-info-wrapper div {
+}
+
 .three-dots {
-    /* padding-left: 100px; */
-    display: inline-block;
-    vertical-align: top;
+    float: left;
+    /* display: inline-block;
+    vertical-align: top; */
 }
 
 .overview-information {
-    display: inline-block;
+    overflow: hidden;
 }
 
 .verbiage p {
@@ -136,43 +114,7 @@
     display: inline-block;
 }
 
-.button-source-code {
-    margin-top: 60px;
-}
 
-.source-code a {
-    padding: 8px;
-    font-family: RobotoCondensed-Bold;
-    font-size: 20px;
-    color: #3E1C49;
-    border: 2.5px solid #3E1C49;
-    text-decoration: none;
-}
-
-.source-code a:hover {
-    color: #1FBBA6;
-    border: 2.5px solid #1FBBA6;
-}
-
-
-#page-header {
-    padding: 100px;
-    font-family: Kalam-Bold;
-    position: relative;
-    font-size: 40px;
-    color: #474747;
-}
-
-#page-header p {
-    margin: 0;
-}
-
-#project-header-drops {
-    position: absolute;
-    z-index: -1;
-    top: 60px;
-    left: 0px;
-}
 
 #verbiage-break {
     display: block;
