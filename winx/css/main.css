@@ -1,1 +1,189 @@
-@import "fonts.css";
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(../fontsOpen_Sans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-BoldItalic;
+  src: url(../fontsOpen_Sans/OpenSans-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-ExtraBold;
+  src: url(../fontsOpen_Sans/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-ExtraBold;
+  src: url(../fontsOpen_Sans/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-Italic;
+  src: url(../fontsOpen_Sans/OpenSans-Italic.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-Light;
+  src: url(../fontsOpen_Sans/OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-LightItalic;
+  src: url(../fontsOpen_Sans/OpenSans-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../fontsOpen_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-SemiBold;
+  src: url(../fontsOpen_Sans/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-SemiBoldItalic;
+  src: url(../fontsOpen_Sans/OpenSans-SemiBoldItalic.ttf);
+}
+
+html,
+body {
+  margin: 0;
+}
+
+body {
+  background-image: url("../images/sky_section.png");
+  background-size: cover;
+  background-repeat: repeat-y;
+  width: 100%;
+}
+
+.section-wrapper {
+  position: relative;
+  height: 100%;
+}
+
+.wrapper {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(92, 52, 92, 0.906);
+}
+
+#nav-bar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#nav-bar nav {
+  padding: 20px 50px;
+  background-color: #7D9FC1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  font-family: OpenSans-Bold;
+}
+
+#nav-bar a {
+  margin: auto 0;
+  padding-right: 50px;
+  text-decoration: none;
+  color: #F8F9FA;
+}
+
+#nav-bar a:hover {
+  color: #dfdada;
+}
+
+#nav-bar #winx-logo {
+  margin-left: auto;
+  display: inline-block;
+}
+
+#section1 {
+  background-color: rgba(228, 220, 102, 0.906);
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  text-align: center;
+}
+
+#section1 p {
+  margin: 0;
+}
+
+#section1 .arrow {
+  margin: 30px auto 10px auto;
+  position: relative;
+  width: 17px;
+  height: 0px;
+  border-bottom: 15px solid #7D9FC1;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+#section1 .arrow::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 20px solid #7D9FC1;
+  position: absolute;
+  right: -15px;
+  top: -8px;
+}
+
+#section1 .scroll-up {
+  font-size: 25px;
+  font-family: OpenSans-Bold;
+  color: #7D9FC1;
+}
+
+#section1 #guy img {
+  position: absolute;
+  left: 0;
+  bottom: -361px;
+  width: 100%;
+  height: auto;
+}
+
+#section1 #sec1-info {
+  margin-top: 260px;
+  padding-top: 40px;
+  color: #7D9FC1;
+}
+
+#section1 #sleep {
+  font-family: OpenSans-Bold;
+  font-size: 82px;
+}
+
+#section1 #dream {
+  font-family: OpenSans-Regualar;
+  font-size: 51px;
+}
+
+#transition1 {
+  position: fixed;
+}
+
+#blimp {
+  z-index: -1;
+  position: absolute;
+  top: 290px;
+  right: 270px;
+}
+
+#bubbles-part1 {
+  padding-left: 30px;
+}
+
+#bubbles-part1 img {
+  width: 100vw;
+}
+/*# sourceMappingURL=main.css.map */
