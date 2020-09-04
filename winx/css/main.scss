@@ -69,35 +69,35 @@ body {
     display: none;
 }
 
-#nav-bar {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+// #nav-bar {
+//     position: absolute;
+//     bottom: 0;
+//     width: 100%;
 
-    nav {
-        padding: 20px 50px;
-        background-color: $nav-transition;
-        display: flex;
-        font-size: $extra-small;
-        font-family: Montserrat-Bold;
-    }
+//     nav {
+//         padding: 20px 50px;
+//         background-color: $nav-transition;
+//         display: flex;
+//         font-size: $extra-small;
+//         font-family: Montserrat-Bold;
+//     }
 
-    a {
-        margin: auto 0;
-        padding-right: 50px;
-        text-decoration: none;
-        color: $text;
-    }
+//     a {
+//         margin: auto 0;
+//         padding-right: 50px;
+//         text-decoration: none;
+//         color: $text;
+//     }
 
-    a:hover {
-        color: #dfdada;
-    }
+//     a:hover {
+//         color: #dfdada;
+//     }
 
-    #winx-logo {
-        margin-left: auto;
-        display: inline-block;
-    }
-}
+//     #winx-logo {
+//         margin-left: auto;
+//         display: inline-block;
+//     }
+// }
 
 #section1 {
     width: 100%;
