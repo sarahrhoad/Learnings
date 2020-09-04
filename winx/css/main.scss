@@ -46,7 +46,7 @@ body {
 
 .scroll-up {
     font-size: $medium;
-    font-family: OpenSans-Bold;
+    font-family: Montserrat-Bold;
     color: $nav-transition;
 }
 
@@ -79,7 +79,7 @@ body {
         background-color: $nav-transition;
         display: flex;
         font-size: $extra-small;
-        font-family: OpenSans-Bold;
+        font-family: Montserrat-Bold;
     }
 
     a {
@@ -123,12 +123,12 @@ body {
     }
 
     #sleep {
-        font-family: OpenSans-Bold;
+        font-family: Montserrat-Bold;
         font-size: $giant;
     }
 
     #dream {
-        font-family: OpenSans-Regualar;
+        font-family: Montserrat-Regular;
         font-size: $large;
     }
 }
