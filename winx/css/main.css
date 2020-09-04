@@ -1,0 +1,197 @@
+@font-face {
+  font-family: Montserrat-Black;
+  src: url(../fonts/Montserrat/Montserrat-Black.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-BlackItalic;
+  src: url(../fonts/Montserrat/Montserrat-BlackItalic.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-BoldItalic;
+  src: url(../fonts/Montserrat/Montserrat-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-ExtraBold;
+  src: url(../fonts/Montserrat/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-MediumItalic;
+  src: url(../fonts/Montserrat/Montserrat-MediumItalic.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+html,
+body {
+  margin: 0;
+}
+
+body {
+  position: relative;
+  background-image: url("../images/sky_section.png");
+  background-size: cover;
+  background-repeat: repeat-y;
+  width: 100%;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-toggler {
+  padding: 0;
+  font-size: 17px;
+  line-height: 0;
+  border: none;
+  border-radius: 0;
+  outline: none;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  color: #F8F9FA;
+  width: auto;
+  height: auto;
+}
+
+.navbar {
+  padding: 10px 50px !important;
+  background-color: #7D9FC1;
+  font-size: 17px;
+  font-family: Montserrat-Medium;
+}
+
+.navbar a.nav-link {
+  padding-right: 50px !important;
+}
+
+.navbar a:hover {
+  color: #0000ff82;
+}
+
+.navbar .nav-link {
+  margin: auto 0;
+  padding: 10px 50px;
+  text-decoration: none;
+  color: #F8F9FA;
+}
+
+.section-wrapper {
+  position: relative;
+  height: 100%;
+}
+
+.arrow {
+  margin: 30px auto 10px auto;
+  position: relative;
+  width: 17px;
+  height: 0px;
+  border-bottom: 15px solid #7D9FC1;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.arrow::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 20px solid #7D9FC1;
+  position: absolute;
+  right: -15px;
+  top: -8px;
+}
+
+.scroll-up {
+  font-size: 25px;
+  font-family: Montserrat-Bold;
+  color: #7D9FC1;
+}
+
+#section1 {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 79px;
+  text-align: center;
+}
+
+#section1 p {
+  margin: 0;
+}
+
+#section1 #guy img {
+  width: 100%;
+  height: auto;
+}
+
+#section1 #sec1-info {
+  margin-top: 260px;
+  margin-bottom: 39px;
+  padding-top: 40px;
+  color: #7D9FC1;
+}
+
+#section1 #sleep {
+  font-family: Montserrat-Bold;
+  font-size: 82px;
+}
+
+#section1 #dream {
+  font-family: Montserrat-Regular;
+  font-size: 51px;
+}
+
+#transition1 {
+  background-color: rgba(252, 208, 237, 0.619);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+#transition1 #blimp {
+  position: absolute;
+  top: 290px;
+  right: 270px;
+}
+
+#transition1 #blimp img {
+  width: 240px;
+}
+
+#transition1 #bubbles-part1 {
+  padding-left: 30px;
+}
+
+#transition1 #bubbles-part1 img {
+  width: 100%;
+}
+
+@media (max-width: 1230px) {
+  .navbar a.nav-link {
+    padding-right: 30px !important;
+  }
+}
+/*# sourceMappingURL=main.css.map */

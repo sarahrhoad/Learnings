@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
 
     <title>Winx Parallax Page</title>
@@ -50,48 +51,34 @@
         </div>
     </div>
 
-
-    <div class="topnav" id="myTopnav">
-        <a href="#home" class="active">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
-
-
-
-    <div class="nav-wrapper">
-        <div class="bottom-bar" id="nav-bar">
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">Unmask Sleep Apnea</a>
-                <a href="#">The Winx Advantage</a>
-                <a href="#">Is Winx Right For You</a>
-                <a href="#">Register Now</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
-                <div id="winx-logo">
-                    <img src="./images/winx_logo.png" alt="Winx">
-                </div>
-            </nav>
+    <nav class="nav navbar fixed-bottom navbar-expand-xl">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#">Unmask Sleep Apnea</a>
+                <a class="nav-link" href="#">The Winx Advantage</a>
+                <a class="nav-link" href="#">Is Winx Right For You</a>
+                <a class="nav-link" href="#">Register Now</a>
+            </div>
         </div>
-    </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><img src="./images/menu.svg" alt=""></span>
+        </button>
+
+        <a class="logo" href="#"><img src="./images/winx_logo.png" alt="Winx"></a>
+    </nav>
 
 
-    <script>
-        function myFunction() {
-            var x = document.getElementById("nav-bar");
-            if (x.className === "bottom-bar") {
-                x.className += " responsive";
-            } else {
-                x.className = "bottom-bar";
-            }
-        }
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
