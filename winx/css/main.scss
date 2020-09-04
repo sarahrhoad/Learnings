@@ -69,7 +69,7 @@ body {
 
 
 #bottom-section1 {
-    background-color: #526d46;
+    // background-color: #526d46;
     width: 100%;
     height: auto;
     position: absolute;
@@ -122,6 +122,21 @@ body {
     #dream {
         font-family: Montserrat-Regular;
         font-size: $large;
+    }
+
+    #cloud-sect1-left img {
+        z-index: -1;
+        position: absolute;
+        bottom: 20px;
+        left: -73px;
+    }
+
+    #cloud-sect1-right img {
+        width: 350px;
+        z-index: -1;
+        position: absolute;
+        bottom: 0;
+        right: 0;
     }
 
     #guy-sleeping img {
