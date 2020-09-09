@@ -64,9 +64,38 @@ body {
     height: 100%;
 }
 
+.section-wrapper {
+    position: relative;
+    padding: 0;
+}
 
+.scroll-up {
+    font-size: $medium;
+    font-family: Montserrat-Bold;
+    color: $nav-transition;
+    text-align: center;
+}
 
+.arrow {
+    margin: 30px auto 10px auto;
+    position: relative;
+    width: $extra-small;
+    height: 0px;
+    border-bottom: 15px solid #7D9FC1;
+    transform: rotate(-90deg);
+}
 
+.arrow::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 20px solid $nav-transition;
+    position: absolute;
+    right: -15px;
+    top: -8px;
+}
 
 #bottom-section1 {
     // background-color: #526d46;
@@ -78,33 +107,6 @@ body {
 
     p {
         margin: 0;
-    }
-
-    .scroll-up {
-        font-size: $medium;
-        font-family: Montserrat-Bold;
-        color: $nav-transition;
-    }
-
-    .arrow {
-        margin: 30px auto 10px auto;
-        position: relative;
-        width: $extra-small;
-        height: 0px;
-        border-bottom: 15px solid #7D9FC1;
-        transform: rotate(-90deg);
-    }
-
-    .arrow::after {
-        content: '';
-        width: 0;
-        height: 0;
-        border-top: 15px solid transparent;
-        border-bottom: 15px solid transparent;
-        border-left: 20px solid $nav-transition;
-        position: absolute;
-        right: -15px;
-        top: -8px;
     }
 
     #section1-info {
@@ -146,33 +148,56 @@ body {
     }
 }
 
+#wrapper {
+    // position: relative;
+}
+
 #transition1 {
-    background-color: rgba(252, 208, 237, 0.619);
+    // background-color: rgba(252, 208, 237, 0.619);
     width: 100%;
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    // bottom: 0;
     // height: 100%;
+
 
     #blimp {
         // z-index: -1;
         position: absolute;
-        top: 290px;
-        right: 270px;
+        top: 250px;
+        right: 300px;
 
         img {
             width: 240px;
         }
     }
 
-    #goal-post {}
-
-    #bubbles-part1 {
-        padding-left: 30px;
+    #goal-post {
+        margin-bottom: 100px;
+        margin-left: 200px;
+        padding-top: 200px;
+        display: inline-block;
 
         img {
             width: 100%;
         }
+    }
 
+    #goal-cloud {
+        position: absolute;
+        left: 150px;
+        top: 660px;
+        // bottom: -50px;
+
+        img {
+            width: 300px;
+        }
+    }
+
+    #bubbles-part1 img {
+        position: absolute;
+        top: -280px;
+        width: 100%;
+        // z-index: -1;
     }
 }
 
