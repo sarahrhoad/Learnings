@@ -113,10 +113,17 @@ body {
 }
 
 .scroll-up {
+  position: fixed;
+  top: 0;
+  width: 100%;
   font-size: 25px;
   font-family: Montserrat-Bold;
   color: #7D9FC1;
   text-align: center;
+}
+
+.scroll-up p {
+  margin-top: 60px;
 }
 
 .arrow {

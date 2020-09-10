@@ -14,38 +14,20 @@
 
 <body>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <!-- data-lax-translate-y="0 0, -350px 350px" -->
 
     <div class="container-fluid section-wrapper">
         <div id="wrapper">
             <div id="transition1">
-                <div class="scroll-up">
-                    <div class="arrow"></div>
-                    <p class="scroll-up">scroll up</p>
-                </div>
                 <div id="goal-post">
                     <img src="./images/goal_post.png" alt="Football Goal Post">
                 </div>
                 <div id="goal-cloud">
                     <img src="./images/cloud-goal-post.svg" alt="White Cloud">
                 </div>
-                <div class="lax" data-lax-translate="0, 2000" id="blimp">
+                <div  id="blimp">
                     <img src="./images/blimp.png" alt="">
                 </div>
-                <div class="lax" data-lax-opacity="0 1, 600 0" id="bubbles-part1">
+                <div  id="bubbles-part1">
                     <img src="./images/bubbles_section2.png" alt="">
                 </div>
             </div>
@@ -56,7 +38,7 @@
         <div id="bottom-section1">
             <div class="scroll-up">
                 <div class="arrow"></div>
-                <p class="scroll-up">scroll up</p>
+                <p>scroll up</p>
             </div>
 
             <div id="section1-info">
@@ -107,20 +89,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
     <!-- Parallax CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/lax.js"></script>
 
-    <script>
-        window.onload = function () {
-            lax.setup() // init
-
-            const updateLax = () => {
-                lax.update(window.scrollY)
-                window.requestAnimationFrame(updateLax)
-            }
-
-            window.requestAnimationFrame(updateLax)
-        }
-    </script>
 
 </body>
 

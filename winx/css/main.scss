@@ -70,10 +70,17 @@ body {
 }
 
 .scroll-up {
+    position: fixed;
+    top: 0;
+    width: 100%;
     font-size: $medium;
     font-family: Montserrat-Bold;
     color: $nav-transition;
     text-align: center;
+}
+
+.scroll-up p {
+    margin-top: 60px;
 }
 
 .arrow {
