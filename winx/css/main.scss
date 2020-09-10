@@ -104,6 +104,11 @@ body {
     top: -8px;
 }
 
+.o-anim-ty {
+    will-change: transform;
+    transition: transform 0.1s linear;
+}
+
 #bottom-section1 {
     // background-color: #526d46;
     width: 100%;
@@ -155,10 +160,6 @@ body {
     }
 }
 
-#wrapper {
-    // position: relative;
-}
-
 #transition1 {
     // background-color: rgba(252, 208, 237, 0.619);
     width: 100%;
@@ -172,6 +173,8 @@ body {
         position: absolute;
         top: 250px;
         right: 300px;
+        transform: translateY(var(--translateY));
+        will-change: transform;
 
         img {
             width: 240px;
@@ -205,6 +208,21 @@ body {
         top: -280px;
         width: 100%;
         // z-index: -1;
+    }
+
+    .bubble1a-sect2 {
+        position: absolute;
+        top: 410px;
+        left: 360px;
+        width: 100px;
+    }
+
+    .bubble1b-sect2 {
+        width: 150px;
+    }
+
+    .bubble1c-sect2 {
+        width: 80px;
     }
 }
 

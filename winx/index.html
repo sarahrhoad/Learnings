@@ -13,7 +13,23 @@
 </head>
 
 <body>
-
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
     <div class="container-fluid section-wrapper">
         <div id="wrapper">
@@ -24,12 +40,18 @@
                 <div id="goal-cloud">
                     <img src="./images/cloud-goal-post.svg" alt="White Cloud">
                 </div>
-                <div  id="blimp">
-                    <img src="./images/blimp.png" alt="">
+                <div class="js-parallax-section blimp o-anim-ty" data-modifier="30">
+                    <img src="./images/blimp.png" alt="image">
                 </div>
-                <div  id="bubbles-part1">
+                <div id="bubbles-part1">
                     <img src="./images/bubbles_section2.png" alt="">
                 </div>
+                <div>
+                    <img class="bubble1a-sect2" src="./images/bubble_1a.png" alt="">
+                    <img class="bubble1b-sect2" src="./images/bubble_1b.png" alt="">
+                    <img class="bubble1c-sect2" src="./images/bubble_1c.png" alt="">
+                </div>
+
             </div>
         </div>
     </div>
@@ -88,8 +110,29 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-    <!-- Parallax CDN -->
+    <!-- Parallax -->
+    <script src="dist/basicScroll.min.js"></script>
 
+    <script>
+        document.querySelectorAll('.blimp').forEach((elem) => {
+
+            const modifier = elem.getAttribute('data-modifier')
+
+            basicScroll.create({
+                elem: elem,
+                from: 0,
+                to: 5019,
+                direct: true,
+                props: {
+                    '--translateY': {
+                        from: '0',
+                        to: `${ 10 * modifier }px`
+                    }
+                }
+            }).start()
+
+        })
+    </script>
 
 </body>
 
