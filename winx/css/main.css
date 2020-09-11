@@ -148,14 +148,6 @@ body {
   top: -8px;
 }
 
-.o-anim-ty {
-  will-change: transform;
-  -webkit-transition: -webkit-transform 0.1s linear;
-  transition: -webkit-transform 0.1s linear;
-  transition: transform 0.1s linear;
-  transition: transform 0.1s linear, -webkit-transform 0.1s linear;
-}
-
 #bottom-section1 {
   width: 100%;
   height: auto;
@@ -211,16 +203,13 @@ body {
   position: relative;
 }
 
-#transition1 #blimp {
+#transition1 .blimp {
   position: absolute;
-  top: 250px;
-  right: 300px;
-  -webkit-transform: translateY(var(--translateY));
-          transform: translateY(var(--translateY));
-  will-change: transform;
+  top: 180px;
+  right: 420px;
 }
 
-#transition1 #blimp img {
+#transition1 .blimp img {
   width: 240px;
 }
 
@@ -238,7 +227,7 @@ body {
 #transition1 #goal-cloud {
   position: absolute;
   left: 150px;
-  top: 660px;
+  top: 600px;
 }
 
 #transition1 #goal-cloud img {
@@ -259,11 +248,28 @@ body {
 }
 
 #transition1 .bubble1b-sect2 {
-  width: 150px;
+  position: absolute;
+  top: -70px;
+  left: 800px;
+  width: 50px;
 }
 
 #transition1 .bubble1c-sect2 {
-  width: 80px;
+  position: absolute;
+  top: 280px;
+  left: 900px;
+  width: 60px;
+}
+
+#transition1 #cloud-tran1-left {
+  position: absolute;
+  top: -200px;
+}
+
+#transition1 #cloud-tran1-right {
+  position: absolute;
+  top: 0;
+  right: -15px;
 }
 
 @media (max-width: 1230px) {
