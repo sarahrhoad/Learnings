@@ -8,7 +8,7 @@ body {
 
 body {
     position: relative;
-    background-image: url('../images/sky_section.png');
+    background-image: url('../images/sky_1.png');
     background-size: cover;
     background-repeat: repeat-y;
     width: 100%;
@@ -123,7 +123,7 @@ body {
 
     #section1-info {
         margin-top: 200px;
-        margin-bottom: 39px;
+        margin-bottom: 50px;
         color: $text;
         letter-spacing: 1px;
     }
@@ -150,7 +150,7 @@ body {
         z-index: -1;
         position: absolute;
         bottom: 0;
-        right: 0;
+        right: -20px;
     }
 
     #guy-sleeping img {
@@ -182,10 +182,11 @@ body {
     }
 
     #goal-post {
-        margin-bottom: 100px;
+        // margin-bottom: 100px;
         margin-left: 200px;
-        padding-top: 200px;
+        padding-top: 400px;
         display: inline-block;
+        width: 230px;
 
         img {
             width: 100%;
@@ -195,7 +196,7 @@ body {
     #goal-cloud {
         position: absolute;
         left: 150px;
-        top: 600px;
+        top: 700px;
         // bottom: -50px;
 
         img {
@@ -237,6 +238,12 @@ body {
     }
 
     #cloud-tran1-right {
+        position: absolute;
+        top: 170px;
+        right: -15px;
+    }
+
+    #cloud-tran1-right2 {
         position: absolute;
         top: 0;
         right: -15px;
